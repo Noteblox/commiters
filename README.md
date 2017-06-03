@@ -9,7 +9,8 @@ request; this will save time for everyone!_
 ## Code of Conduct
 
 This project adheres to the Contributor Covenant [code of conduct](CODE_OF_CONDUCT.md).
-By participating, you  are expected to uphold this code. Please report unacceptable behavior to NoteBLOX-code-of-conduct@pivotal.io.
+By participating, you  are expected to uphold this code. Please report unacceptable behavior 
+to project maintainers or support@noteblox.com
 
 ## Take Your First Steps
 
