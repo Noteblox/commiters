@@ -23,7 +23,7 @@ excellent [help documentation][] first.
 If you're unsure why something isn't working or wondering if there is a better
 way of doing it please create an issue to start discussion. 
 
-### Search JIRA; create an issue if necessary
+### Search the issues; create a new one if necessary
 
 Is there already an issue that addresses your concern? Do a bit of searching
 in our Github issues for the project to see if you can find something similar. If you
