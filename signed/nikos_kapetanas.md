@@ -27,7 +27,7 @@ IL U.S.A
 Please read this document carefully before signing and keep a copy 
 for your records.
 
-Full name: Kapetanas Nick________________________________________
+Full name: Kapetanas Nikos________________________________________
 
 (optional) Public name: _________________________________________
 
@@ -141,5 +141,5 @@ title, and interest in and to Your Contributions.
    which you become aware that would make these representations
    inaccurate in any respect.
 
-Please sign: __________________________________ Date: ________________
+Please sign: Kapetanas Nikos_____________________________ Date: 7/6/17_____
 
