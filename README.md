@@ -69,11 +69,11 @@ removing compiler warnings, etc.
 If you have not previously done so, please sign the [Contributor License Agreement][].
 If you forget to do so, you'll be reminded when you submit a pull request. To quickly sign the agreement:
 
-1. Fork this repository and navigate to your fork's root folder
+1. Fork this repository and navigate to your fork's root folder. To learn about forking projects see Github's ["Fork a Repo"](https://help.github.com/articles/fork-a-repo/)  article.
 2. Add a copy of the agreement in the signed folder, naming it after yourself: `cp ContributorLicenseAgreement.md signed/FIRSTNAME_LASTNAME.md`
 3. Update the *new* file using your information
 4. Commit/push to your fork
-5. Create a pull request from your fork to this repository
+5. Create a pull request from your fork to this repository. If this is your first time see Github's ["Creating a pull request from a fork"](https://help.github.com/articles/creating-a-pull-request-from-a-fork/)  article.
 
 ## Create a Branch
 
