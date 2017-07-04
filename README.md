@@ -1,18 +1,50 @@
-_NoteBLOX is open to community contributions. Contributors are welcome to submit their pull requests. 
-Please read this document carefully to understand how to best to submit your pull request, 
-what kind of changes are likely to be accepted, and what to expect from the NoteBLOX team 
-when evaluating your submission._
+NoteBLOX is open to community contributions. There is no need for a contributor
+to have committer rights to the repo, or to even be a team member. All contributors are welcome
+to submit their pull requests.
 
-_Please refer back to this document as a checklist before issuing any pull
-request; this will save time for everyone!_
+> New contributors or team members must [sign the Contributor Agreement](#sign-the-contributor-license-agreement-cla)
+> before adding a contribution or receiving a member invitation respectively.
+
+Please read this document carefully to understand how to best to submit your pull request,
+what kind of changes are likely to be accepted, and what to expect from the NoteBLOX team
+when evaluating your submission. Remember to use this document as a checklist before issuing any pull
+request; this will save time and make it easier for your contribution to be accepted.
+
+<!-- TOC depthFrom:1 depthTo:6 withLinks:1 updateOnSave:1 orderedList:0 -->
+
+	- [Code of Conduct](#code-of-conduct)
+	- [First Steps](#first-steps)
+		- [Understand the basics](#understand-the-basics)
+		- [Search Stack Overflow first; discuss if necessary](#search-stack-overflow-first-discuss-if-necessary)
+		- [Search the issues; create a new one if necessary](#search-the-issues-create-a-new-one-if-necessary)
+		- [Sign the Contributor License Agreement (CLA)](#sign-the-contributor-license-agreement-cla)
+	- [Create a Branch](#create-a-branch)
+		- [Branch from `master`](#branch-from-master)
+		- [Use short branch names](#use-short-branch-names)
+	- [Use Spring Framework's Code Style](#use-spring-frameworks-code-style)
+		- [Mind the whitespace](#mind-the-whitespace)
+		- [Add appropriate license header to all source files](#add-appropriate-license-header-to-all-source-files)
+		- [Use @since tags for newly-added public API types and methods](#use-since-tags-for-newly-added-public-api-types-and-methods)
+	- [Prepare Your Commit](#prepare-your-commit)
+		- [Submit JUnit or Integration Tests for all behavior changes](#submit-junit-or-integration-tests-for-all-behavior-changes)
+		- [Squash commits](#squash-commits)
+		- [Use real name in git commits](#use-real-name-in-git-commits)
+		- [Format commit messages](#format-commit-messages)
+	- [Run the Final Checklist](#run-the-final-checklist)
+		- [Run all tests prior to submission](#run-all-tests-prior-to-submission)
+		- [Submit your pull request](#submit-your-pull-request)
+		- [Mention your pull request on the associated Github issue](#mention-your-pull-request-on-the-associated-github-issue)
+		- [Expect discussion and rework](#expect-discussion-and-rework)
+
+<!-- /TOC -->
 
 ## Code of Conduct
 
 This project adheres to the Contributor Covenant [code of conduct](CODE_OF_CONDUCT.md).
-By participating, you  are expected to uphold this code. Please report unacceptable behavior 
+By participating, you  are expected to uphold this code. Please report unacceptable behavior
 to project maintainers or support@noteblox.com
 
-## Take Your First Steps
+## First Steps
 
 ### Understand the basics
 
@@ -22,7 +54,7 @@ excellent [help documentation][] first.
 ### Search Stack Overflow first; discuss if necessary
 
 If you're unsure why something isn't working or wondering if there is a better
-way of doing it please create an issue to start discussion. 
+way of doing it please create an issue to start discussion.
 
 ### Search the issues; create a new one if necessary
 
@@ -35,14 +67,20 @@ removing compiler warnings, etc.
 ### Sign the Contributor License Agreement (CLA)
 
 If you have not previously done so, please sign the [Contributor License Agreement][].
-If you forget to do so, you'll be reminded when you submit a pull request.
+If you forget to do so, you'll be reminded when you submit a pull request. To quickly sign the agreement:
+
+1. Fork this repository and navigate to your fork's root folder
+2. Add a copy of the agreement in the signed folder, naming it after yourself: `cp ContributorLicenseAgreement.md signed/FIRSTNAME_LASTNAME.md`
+3. Update the *new* file using your information
+4. Commit/push to your fork
+5. Create a pull request from your fork to this repository
 
 ## Create a Branch
 
 ### Branch from `master`
 
-Please submit all pull requests to the master branch of the appropriate project. 
-Even bug fixes and minor improvements. Backports will be considered on a case-by-case basis by 
+Please submit all pull requests to the master branch of the appropriate project.
+Even bug fixes and minor improvements. Backports will be considered on a case-by-case basis by
 NoteBLOX developers.
 
 
@@ -78,7 +116,7 @@ present in the framework.
 
 ### Add appropriate license header to all source files
 
-Use the headers found in existing files of the project you are creating 
+Use the headers found in existing files of the project you are creating
 the pull request for.
 
 
@@ -246,10 +284,10 @@ Add a comment to the associated Github issue(s) linking to your new pull request
 
 ### Expect discussion and rework
 
-NoteBLOX developers may take a conservative approach to accepting contributions. 
-Development resources are not unlimited, so this is to keep code quality and stability 
-as high as possible, and to keep complexity at a minimum for helping maintenance. 
-Your changes, if accepted, may be heavily modified prior to merging. 
+NoteBLOX developers may take a conservative approach to accepting contributions.
+Development resources are not unlimited, so this is to keep code quality and stability
+as high as possible, and to keep complexity at a minimum for helping maintenance.
+Your changes, if accepted, may be heavily modified prior to merging.
 You will retain "Author:" attribution for your Git
 commits granted that the bulk of your changes remain intact. You may be asked to
 rework the submission for style (as explained above) and/or substance. Again, we
